@@ -3,6 +3,28 @@
    License: none (public domain)
 */
 
+* {
+  box-sizing: border-box;
+}
+
+button {
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  color: inherit;
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
 html,
 body,
 div,
